@@ -2,10 +2,13 @@
 #SBATCH -t 19:55:00
 #SBATCH -c 1
 #SBATCH --mem-per-cpu 4G
+
 #SBATCH --job-name=lcarnn
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-user=codydong@princeton.edu
 #SBATCH --output slurm_log/lcarnn-%j.log
+
+module purge
+module load anaconda3/2021.11
+conda activate pytorch_q
 
 DATADIR=/scratch/gpfs/cd6060/logs/learn-hippocampus-test/log
 
