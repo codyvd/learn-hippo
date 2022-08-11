@@ -1,14 +1,19 @@
 #!/bin/bash
-#SBATCH -t 19:55:00
-#SBATCH -c 1
-#SBATCH --mem-per-cpu 4G
-
+#SBATCH --time=19:55:00
+#SBATCH --constraint=1
+#SBATCH --mem-per-cpu=4G
 #SBATCH --job-name=lcarnn
-#SBATCH --output slurm_log/lcarnn-%j.log
+#SBATCH --mail-type=begin        # send email when job begins
+#SBATCH --mail-type=end          # send email when job ends
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-user=codydong@princeton.edu
+#SBATCH --output=slurm_log/lcarnn-%j.log
 
-#module load anaconda
+module purge
+module load anaconda3/2021.11
+conda activate pytorch_q
 
-DATADIR=/tigress/qlu/logs/learn-hippocampus/log
+DATADIR=/scratch/gpfs/cd6060/logs/learn-hippocampus-test/log
 
 echo $(date)
 
