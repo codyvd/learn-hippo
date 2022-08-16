@@ -4,7 +4,7 @@ import json
 import pickle
 
 from copy import deepcopy
-from utils.utils import vprint
+from utils.utils_u import vprint
 from utils.constants import CKPT_TEMPLATE, ALL_SUBDIRS, NET_JSON_FNAME
 
 """helper func, ckpt io

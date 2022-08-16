@@ -11,7 +11,7 @@ from scipy.stats import pearsonr
 from scipy import spatial
 from sklearn import metrics
 from task import SequenceLearning
-from utils.utils import to_np
+from utils.utils_u import to_np
 from utils.params import P
 from utils.constants import TZ_COND_DICT
 from utils.io import build_log_path, get_test_data_dir, \

@@ -1,5 +1,5 @@
 import numpy as np
-from utils.utils import to_sqnp
+from utils.utils_u import to_sqnp
 from utils.constants import TZ_COND_DICT
 from analysis import compute_stats
 

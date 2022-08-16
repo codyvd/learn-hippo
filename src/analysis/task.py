@@ -1,6 +1,6 @@
 import numpy as np
 from itertools import product
-from analysis.utils import one_hot_to_int
+from analysis.utils_a import one_hot_to_int
 
 
 def get_oq_keys(X_i, task, to_int=True):

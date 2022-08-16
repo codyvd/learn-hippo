@@ -4,6 +4,8 @@
 #SBATCH --mem-per-cpu 4G
 
 #SBATCH --job-name=lcarnn
+#SBATCH --mail-type=FAIL
+#SBATCH --mail-user=codydong@princeton.edu
 #SBATCH --output slurm_log/lcarnn-%j.log
 
 module purge

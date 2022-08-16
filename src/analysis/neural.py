@@ -4,7 +4,7 @@ import torch.nn as nn
 
 from sklearn import metrics
 from itertools import product
-from utils.utils import to_sqnp, to_np, to_sqpth, to_pth, chunk
+from utils.utils_u import to_sqnp, to_np, to_sqpth, to_pth, chunk
 from analysis import compute_stats
 from models.EM import compute_similarities, transform_similarities
 

@@ -43,7 +43,7 @@ Here's the structure of this repo
     │   ├── neural.py
     │   ├── preprocessing.py
     │   ├── task.py
-    │   └── utils.py
+    │   └── utils_u.py
     ├── examples        # some simple demos 
     │   ├── event-empirical-similarity.py
     │   ├── event-similarity-cap.py
@@ -67,13 +67,13 @@ Here's the structure of this repo
     │   ├── Schema.py           
     │   ├── StimSampler.py
     │   ├── SequenceLearning.py    
-    │   ├── utils.py
+    │   ├── utils_u.py
     │   └── __init__.py
     ├── utils           # general utility functions
     │   ├── constants.py
     │   ├── io.py
     │   ├── params.py
-    │   ├── utils.py
+    │   ├── utils_u.py
     │   └── __init__.py    
     ├── vis             # code for visualizing the data
     │   ├── _utils.py

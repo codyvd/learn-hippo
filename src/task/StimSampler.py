@@ -1,6 +1,6 @@
 import numpy as np
 from task.Schema import Schema
-from task.utils import get_botvinick_query
+from task.utils_t import get_botvinick_query
 
 # import pdb
 

@@ -1,6 +1,6 @@
 '''parameter config class'''
 
-from task.utils import sample_rand_path, sample_def_tps
+from task.utils_t import sample_rand_path, sample_def_tps
 from utils.constants import ALL_ENC_MODE
 # import numpy as np
 

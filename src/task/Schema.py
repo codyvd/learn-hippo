@@ -1,5 +1,5 @@
 import numpy as np
-from task.utils import sample_rand_path
+from task.utils_t import sample_rand_path
 
 # import pdb
 VALID_SAMPLING_MODE = ['enumerative']
@@ -231,7 +231,7 @@ def sample_context_drift(
 
 '''tests'''
 if __name__ == "__main__":
-    from task.utils import sample_def_tps
+    from task.utils_t import sample_def_tps
     # import matplotlib.pyplot as plt
     # init a graph
     n_param, n_branch = 6, 4

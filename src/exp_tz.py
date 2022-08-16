@@ -4,9 +4,9 @@ import torch.nn.functional as F
 import pdb
 from copy import deepcopy
 from analysis import entropy
-from utils.utils import to_sqnp
+from utils.utils_u import to_sqnp
 from utils.constants import TZ_COND_DICT, P_TZ_CONDS
-from task.utils import scramble_array, scramble_array_list
+from task.utils_t import scramble_array, scramble_array_list
 from models import get_reward, compute_returns, compute_a2c_loss
 
 

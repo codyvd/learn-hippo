@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
 from analysis import compute_stats
-from utils.utils import to_sqnp
+from utils.utils_u import to_sqnp
 from utils.constants import TZ_COND_DICT
 from matplotlib.ticker import FormatStrFormatter
 

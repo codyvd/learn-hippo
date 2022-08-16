@@ -1,7 +1,7 @@
 import numpy as np
 from collections import deque
-from utils.utils import to_pth
-from task.utils import get_event_ends
+from utils.utils_u import to_pth
+from task.utils_t import get_event_ends
 from analysis.task import compute_event_similarity
 from task.StimSampler import StimSampler
 # import pdb
@@ -225,7 +225,7 @@ def interleave_stories(X, Y, n_parts):
 '''how to use'''
 if __name__ == "__main__":
     import matplotlib.pyplot as plt
-    from task.utils import scramble_array
+    from task.utils_t import scramble_array
 
     n_param, n_branch = 6, 3
     n_parts = 2

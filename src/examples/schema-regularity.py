@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from task import SequenceLearning
-from task.utils import sample_def_tps
+from task.utils_t import sample_def_tps
 from analysis import compute_event_similarity_matrix, compute_stats
 sns.set(style='white', palette='colorblind', context='poster')
 
